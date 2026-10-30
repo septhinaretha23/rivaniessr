@@ -1,0 +1,55 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Rosé Belle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+<a href="index.html" class="logo">Rosé <span>Belle ♡</span></a>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="about.html">About</a></li>
+<li><a class="active" href="contact.html">Contact</a></li>
+<li><a href="cart.html" class="cart-link">♡ Cart</a></li>
+</ul>
+</nav>
+
+<header class="page-header">
+<h1>Get In Touch ♡</h1>
+<p>We would love to hear from you!</p>
+</header>
+
+<section class="section">
+<div class="info-box">
+<h2>Contact Us 🌷</h2>
+<p>Have a question about our products? Send us a message!</p>
+
+<form onsubmit="sendContact(event)">
+    <div class="field">
+        <label>Your Name</label>
+        <input type="text" id="contact-name" required placeholder="Enter your name">
+    </div>
+
+    <div class="field">
+        <label>Your Email</label>
+        <input type="email" id="contact-email" required placeholder="Enter your email">
+    </div>
+
+    <div class="field">
+        <label>Your Message</label>
+        <textarea id="contact-message" required placeholder="Write your message here..."></textarea>
+    </div>
+
+    <button type="submit" class="btn">Send Message ♡</button>
+</form>
+</div>
+</section>
+
+<footer>♡ Rosé Belle Boutique ♡<br>We're happy to help you!</footer>
+<script src="script.js"></script>
+</body>
+</html>

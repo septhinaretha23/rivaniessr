@@ -1,0 +1,91 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosé Belle Boutique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="logo">Rosé <span>Belle ♡</span></a>
+    <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="cart-link">♡ Cart</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <div class="eyebrow">✿ WELCOME TO ROSÉ BELLE ✿</div>
+        <h1>Dress Cute,<br>Feel <span>Pretty.</span></h1>
+        <p>
+            Discover lovely pieces made for your everyday moments.
+            From dreamy tops to adorable skirts, find something
+            that feels perfectly you. ♡
+        </p>
+        <a href="shop.html" class="btn">SHOP NOW 𐙚</a>
+    </div>
+    <img class="hero-photo"
+        src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900"
+        alt="Fashion collection">
+</section>
+
+<section class="section">
+    <div class="section-heading">
+        <h2>Shop Your Style ♡</h2>
+        <p>Find your favorite pieces and create your own lovely look.</p>
+    </div>
+
+    <div class="category-grid">
+        <a href="tops.html" class="category-card">
+            <img src="https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=600" alt="Tops">
+            <h3>Tops 🎀</h3>
+        </a>
+        <a href="pants.html" class="category-card">
+            <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600" alt="Pants">
+            <h3>Pants ♡</h3>
+        </a>
+        <a href="skirts.html" class="category-card">
+            <img src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600" alt="Skirts">
+            <h3>Skirts 🌷</h3>
+        </a>
+        <a href="dresses.html" class="category-card">
+            <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600" alt="Dresses">
+            <h3>Dresses 🩰</h3>
+        </a>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-heading">
+        <h2>Our Lovely Picks</h2>
+        <p>A little collection of pretty things just for you.</p>
+    </div>
+    <div class="product-grid" id="home-products"></div>
+</section>
+
+<section class="promo">
+    <h2>A Little Something For You ♡</h2>
+    <p>New collection is waiting for you. Come find your next favorite outfit!</p>
+    <a href="shop.html" class="btn btn-light">EXPLORE COLLECTION</a>
+</section>
+
+<footer>
+    ♡ Rosé Belle Boutique ♡<br>
+    Made with love for every lovely girl.<br>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</footer>
+
+<script src="script.js"></script>
+<script>
+    renderProducts(products.slice(0, 4), "home-products");
+</script>
+</body>
+</html>

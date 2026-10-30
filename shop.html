@@ -1,0 +1,42 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Rosé Belle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+    <a href="index.html" class="logo">Rosé <span>Belle ♡</span></a>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="cart-link">♡ Cart</a></li>
+    </ul>
+</nav>
+
+<header class="page-header">
+    <h1>Our Collection ♡</h1>
+    <p>Find your new favorite outfit at Rosé Belle.</p>
+</header>
+
+<section class="section">
+    <div class="filters">
+        <a href="shop.html" class="filter-btn active">All</a>
+        <a href="tops.html" class="filter-btn">Tops</a>
+        <a href="pants.html" class="filter-btn">Pants</a>
+        <a href="skirts.html" class="filter-btn">Skirts</a>
+        <a href="dresses.html" class="filter-btn">Dresses</a>
+    </div>
+    <div class="product-grid" id="product-list"></div>
+</section>
+
+<footer>♡ Rosé Belle Boutique ♡<br>Thank you for shopping with us!</footer>
+
+<script src="script.js"></script>
+<script>renderProducts(products, "product-list");</script>
+</body>
+</html>
